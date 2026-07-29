@@ -1,7 +1,24 @@
 aid: itch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/itch.png
 name: Itch
-description: Itch is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Itch is a UK direct-to-consumer pet wellness brand, backed by Seedcamp, offering a
+  subscription service that delivers vet-approved flea, tick and worm treatments to pet owners on a
+  recurring schedule, alongside pet health guidance and related care products. It was surfaced as a
+  Seedcamp portfolio company and added to the API Evangelist network for enrichment. As of this pass
+  no public developer portal, API documentation, or machine-readable API specification could be found;
+  the consumer website sits behind bot protection, so this profile carries provider identity plus a
+  probed domain-security posture rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/itch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Pets
+- Pet Care
+- Pet Wellness
+- Subscription
+- Consumer
+- Ecommerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/itch-domain-security.yml
 - type: Website
-  url: http://itchpet.com
+  url: https://www.itchpet.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
