@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/itch/integrations
+- https://n8n.io/integrations/itch/
+- https://composio.dev/toolkits/itch
+- https://monid.ai/tools/itch
+checked:
+- https://composio.dev/toolkits/itch
+- https://monid.ai/tools/itch
+- https://n8n.io/integrations/itch/
+- https://zapier.com/apps/itch/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
